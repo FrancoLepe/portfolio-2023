@@ -1,0 +1,106 @@
+
+
+.App {
+  padding-left: 500px;
+  padding-top: 130px;
+  padding-bottom: 200px;
+  text-align: left;
+  background-color: #5ca0f2;
+  background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
+}
+.navbar {
+  /* background-color: #5ca0f2; */
+  color: rgb(99, 138, 255);
+  width: auto;
+  height: 3rem;
+  text-decoration: none; /* Remove underline */
+}
+.portfolio {
+  color: rgb(99, 138, 255);
+  font-size:3rem ;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.663);
+  width: fit-content;
+}
+.Music-Depo{
+  font-size:3rem ;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+
+.Headshot {
+ 
+  margin-top: 130px;
+  border-radius: 0%;  
+  width: 300px;
+  margin-left: 250px;
+  box-shadow: 5px 5px 5px 5px rgba(3, 95, 255, 0.628); 
+  border-radius: 20%;
+}
+
+
+.projects {
+  width: 900px;
+  border-radius: 5%;
+  margin-right: 100px;
+  box-shadow: 10px 5px 5px rgba(103, 103, 103, 0.663);
+}
+.toplink{
+  color: rgb(99, 138, 255);
+  text-decoration: none; 
+}
+.toplink:hover {
+  color: rgb(13, 48, 155);
+  transition: color 1ms;
+}
+
+h2 {
+  align-self: flex-start;
+  font-size: 4.3rem;
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
+}
+
+h3 {
+  align-self: flex-start;
+  font-size: 1.9rem;
+  color: rgb(4, 0, 119);
+  width: 600px;
+}
+
+a {
+  font-size: 2rem; 
+  color: rgb(255, 255, 255);
+  text-decoration: none; 
+}
+
+a:hover {
+  color: rgb(13, 48, 155);
+  transition: color 1ms;
+}
+
+
+table {
+  margin-top: 10%;
+  border-collapse: collapse;
+  width: 80%;
+  font-size: large;
+  box-shadow: 2px 2px 2px 2px rgba(3, 95, 255, 0.628);
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  font-size: large;
+  font-weight: bold;
+}
+
+th {
+  background-color: #ededede6;
+  text-align: center;
+  font-size: large;
+  font-weight: bolder;
+}
