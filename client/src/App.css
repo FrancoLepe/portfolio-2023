@@ -12,17 +12,18 @@
   /* background-color: #5ca0f2; */
   color: rgb(99, 138, 255);
   width: auto;
-  height: 3rem;
+  height: 5%;
+  font-size: 2.2em;
   text-decoration: none; /* Remove underline */
 }
 .portfolio {
   color: rgb(99, 138, 255);
-  font-size:3rem ;
+  font-size: 3.5em;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.663);
   width: fit-content;
 }
 .Music-Depo{
-  font-size:3rem ;
+  font-size:bold ;
 }
 
 .content {
@@ -36,7 +37,7 @@
  
   margin-top: 7%;
   border-radius: 0%;  
-  width: 19rem;
+  width: 19em;
   margin-left: 13%;
   box-shadow: 5px 5px 5px 5px rgba(3, 95, 255, 0.628); 
   border-radius: 20%;
@@ -44,7 +45,7 @@
 
 
 .projects {
-  width: 54rem;
+  width: 54em;
   border-radius: 5%;
   margin-right: 3%;
   box-shadow: 10px 5px 5px rgba(103, 103, 103, 0.663);
@@ -60,19 +61,19 @@
 
 h2 {
   align-self: flex-start;
-  font-size: 4.3rem;
+  font-size: 3.5em;
   text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 h3 {
   align-self: flex-start;
-  font-size: 1.9rem;
+  font-size: 1.9em;
   color: rgb(4, 0, 119);
   width: 600px;
 }
 
 a {
-  font-size: 2rem; 
+  font-size: 1.3em; 
   color: rgb(255, 255, 255);
   text-decoration: none; 
 }
@@ -92,7 +93,7 @@ table {
 }
 
 th, td {
-  padding: 0.8rem;
+  padding: 0.8em;
   border: 1px solid #ddd;
   font-size: large;
   font-weight: bold;
