@@ -30,10 +30,10 @@ function App() {
       <br />
       <br />
       <br />
+      {/* <br />
       <br />
       <br />
-      <br />
-      <br />
+      <br /> */}
       <br />
       <h2 className="portfolio">Portfolio Projects</h2>
       <br />
