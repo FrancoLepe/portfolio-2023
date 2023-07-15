@@ -13,12 +13,12 @@
   color: rgb(99, 138, 255);
   width: auto;
   height: 5%;
-  font-size: 2.2em;
+  font-size: 1.1rem;
   text-decoration: none; /* Remove underline */
 }
 .portfolio {
   color: rgb(99, 138, 255);
-  font-size: 3.5em;
+  font-size: 2rem;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.663);
   width: fit-content;
 }
@@ -37,15 +37,15 @@
  
   margin-top: 7%;
   border-radius: 0%;  
-  width: 19em;
-  margin-left: 13%;
+  width: 9.2rem;
+  margin-left: 14%;
   box-shadow: 5px 5px 5px 5px rgba(3, 95, 255, 0.628); 
   border-radius: 20%;
 }
 
 
 .projects {
-  width: 54em;
+  width: 27rem;
   border-radius: 5%;
   margin-right: 3%;
   box-shadow: 10px 5px 5px rgba(103, 103, 103, 0.663);
@@ -61,19 +61,19 @@
 
 h2 {
   align-self: flex-start;
-  font-size: 3.5em;
+  font-size: 2rem;
   text-shadow: 1px 1px 1px rgb(255, 255, 255);
 }
 
 h3 {
   align-self: flex-start;
-  font-size: 1.9em;
+  font-size: 1rem;
   color: rgb(4, 0, 119);
-  width: 600px;
+  width: 20rem;
 }
 
 a {
-  font-size: 1.3em; 
+  font-size: 1.3rem; 
   color: rgb(255, 255, 255);
   text-decoration: none; 
 }
@@ -93,15 +93,15 @@ table {
 }
 
 th, td {
-  padding: 0.8em;
-  border: 1px solid #ddd;
-  font-size: large;
+  padding: 0.55em;
+  border: 0.8px solid #ddd;
+  font-size: .6rem;
   font-weight: bold;
 }
 
 th {
   background-color: #ededede6;
   text-align: center;
-  font-size: large;
-  font-weight: bolder;
+  font-size: .6rem;
+  font-weight: bold;
 }
