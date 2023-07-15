@@ -106,7 +106,7 @@ th {
   font-weight: bold;
 }
 
-@media all and (max-width:400px){
+@media all and (max-width:500px){
   .App {
     padding-left: 8%;
     padding-top: 10%;
