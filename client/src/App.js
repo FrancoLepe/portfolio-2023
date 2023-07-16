@@ -11,7 +11,9 @@ function App() {
       <div className="content">
         
         <div>
-          <h2>Software Engineer ⚙️ </h2>
+        <h2>
+        Software Engineer <span className="gear-emoji">⚙️</span>
+        </h2>
           <h3>Hi, I'm Franco Lepe, a Full-Stack Developer <a href="https://github.com/FrancoLepe" className='toplink'>Visit my GitHub</a><br></br><a href="https://www.linkedin.com/in/francolepe/" className='toplink'> , Linkedin</a><a href="https://medium.com/@francolepe169" className='toplink'>, and Blog</a></h3>
         </div>
         <img className="Headshot" src={headshot} alt="headshot" />

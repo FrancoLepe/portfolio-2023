@@ -7,6 +7,7 @@
   text-align: left;
   background-color: #5ca0f2;
   background-image: linear-gradient(315deg, #5ca0f2 0%, #f5f7f6 74%);
+  
 }
 .navbar {
   /* background-color: #5ca0f2; */
@@ -59,6 +60,17 @@
   transition: color 1ms;
 }
 
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.gear-emoji {
+  content: "⚙️";
+  display: inline-block;
+  animation: rotate 5s linear infinite;
+}
+
 h2 {
   align-self: flex-start;
   font-size: 2rem;
@@ -105,6 +117,8 @@ th {
   font-size: .6rem;
   font-weight: bold;
 }
+
+
 
 @media all and (max-width:500px){
   .App {
@@ -172,6 +186,17 @@ th {
     transition: color 1ms;
   }
   
+  @keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+  }
+  
+  .gear-emoji {
+    content: "⚙️";
+    display: inline-block;
+    animation: rotate 5s linear infinite;
+  }
+
   h2 {
     align-self: flex-start;
     font-size: 15px;
