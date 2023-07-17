@@ -5,6 +5,8 @@ import project5 from './project5.png';
 import project6 from './project6.png';
 import project2 from './project2.png';
 function App() {
+
+  
   return (
     <div className="App">
      <Navbar/>
@@ -32,10 +34,6 @@ function App() {
       <br />
       <br />
       <br />
-      {/* <br />
-      <br />
-      <br />
-      <br /> */}
       <br />
       <h2 className="portfolio">Portfolio Projects</h2>
       <br />
