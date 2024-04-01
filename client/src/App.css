@@ -275,6 +275,17 @@ th {
     animation: rotate 5s linear infinite;
   }
 
+  h1{
+    background-image: url(https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExaW10N3YxaDVrNWQwNTlkb2tzdWlwbW9ocHlxc2d2cGkxanE0NHc3diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3bc8pP1rVdfgN1uoMV/giphy-downsized-large.gif);
+    background-size: cover;
+    color: transparent;
+    -moz-background-clip: text;
+    -webkit-background-clip: text;
+    text-transform: uppercase;
+    margin: 10px 0;
+    font-size: 20px;
+  }
+
   h2 {
     align-self: flex-start;
     font-size: 15px;
