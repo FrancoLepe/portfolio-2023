@@ -141,7 +141,7 @@ th {
   width: 300px;
   height: 430px;
   box-shadow: 0 0 10px 0 #00000068;
-  background-color: rgba(255, 255, 255, 0.273);
+  background-color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 
@@ -151,9 +151,9 @@ th {
   height: 20px;
   width: 250px;
   padding: 7px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  border :2px;
+  background-color: rgba(255, 255, 255, 0);
+  border :0px;
+  border-bottom: 2px solid #828282
 }
 
 .text-field {
@@ -162,14 +162,15 @@ th {
   height: 200px;
   width: 250px;
   padding: 7px;
-  background-color: rgba(255, 255, 255, 0.5);
-  border-radius: 10px;
-  border :1px;
+  background-color: rgba(255, 255, 255, 0);
+  
+  border :1px ;
+  border-bottom: 2px solid #828282
 }
 
 .form-button {
   margin-left: 17px;
-  background-color: rgb(251, 251, 251);
+  background-color: rgb(83, 158, 255);
   margin-top: 5px;
   height: 50px;
   width: 170px;
@@ -179,7 +180,8 @@ th {
   
 }
 .form-button:hover{
-  background-color: rgba(255, 255, 255, 0.633);
+  background-color: rgba(22, 73, 162, 0.525);
+  
 }
 
 

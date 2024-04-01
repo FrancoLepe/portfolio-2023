@@ -35,8 +35,8 @@ export default function Contact(){
                     <input type='text' className='inputfield' placeholder="Full Name" name="user_name" required />
                     <input type='email' className='inputfield' placeholder="Email" name="user_email" required />
                     <input type='Text' className='inputfield' placeholder="Subject" name="subject" required />
-                    <textarea name='message' className='text-field' cols='30' rows='10' />
-                    <button type='submit' className="form-button">Send message</button>
+                    <textarea name='message' className='text-field' cols='30' placeholder='Type your message here' rows='10' />
+                    <button type='submit' className="form-button">Send message </button>
 
                 </form>
                 </div>
