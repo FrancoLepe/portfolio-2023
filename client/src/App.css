@@ -137,6 +137,51 @@ th {
   font-weight: bold;
 }
 
+.form {
+  width: 300px;
+  height: 430px;
+  box-shadow: 0 0 10px 0 #00000068;
+  background-color: rgba(255, 255, 255, 0.273);
+  border-radius: 10px;
+}
+
+.inputfield {
+  margin-left: 17px;
+  margin-top: 5px;
+  height: 20px;
+  width: 250px;
+  padding: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border :2px;
+}
+
+.text-field {
+  margin-left: 17px;
+  margin-top: 5px;
+  height: 200px;
+  width: 250px;
+  padding: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  border :1px;
+}
+
+.form-button {
+  margin-left: 17px;
+  background-color: rgb(251, 251, 251);
+  margin-top: 5px;
+  height: 50px;
+  width: 170px;
+  padding: 7px;
+  border-radius: 10px;
+  border :1px;
+  
+}
+.form-button:hover{
+  background-color: rgba(255, 255, 255, 0.633);
+}
+
 
 
 @media all and (max-width:500px){
@@ -151,7 +196,7 @@ th {
   }
   .navbar {
     /* background-color: #5ca0f2; */
-    color: rgb(99, 138, 255);
+    color: rgb(99, 180, 255);
     width: auto;
     height: 5%;
     font-size: 16px;

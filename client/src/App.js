@@ -4,6 +4,7 @@ import headshot from './headshot.JPG';
 import project5 from './project5.png';
 import project6 from './project6.png';
 import project2 from './project2.png';
+import Contact from './components/Contact';
 function App() {
 
   
@@ -60,6 +61,11 @@ function App() {
       <img className="projects" src={project2} alt="homepage screenshot 3" />
       <h3> Music player app that uses the Spotify Api and allows the user to look up songs, preview them, see the top 50 songs and favorite songs to a playlist <a href="https://www.loom.com/share/81098b5bc3ba4d44b3642790df9fd9d6?sid=f5b5041e-473d-480f-8043-5459074e3783">Video Demo</a></h3>
       </div>
+
+      <Contact/>
+      
+
+
     </div>
   );
 }
