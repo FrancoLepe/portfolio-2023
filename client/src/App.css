@@ -173,7 +173,7 @@ th {
   width: 250px;
   padding: 7px;
   background-color: rgba(255, 255, 255, 0);
-  
+  resize: none;
   border :1px ;
   border-bottom: 2px solid #828282
 }
