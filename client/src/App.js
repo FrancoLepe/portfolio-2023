@@ -4,6 +4,7 @@ import headshot from './headshot.JPG';
 import project5 from './project5.png';
 import project6 from './project6.png';
 import project2 from './project2.png';
+import overnight from './overnightscreenshot.png'
 import Contact from './components/Contact';
 function App() {
 
@@ -38,6 +39,17 @@ function App() {
       <br />
       <br />
       <h2 className="portfolio">Portfolio Projects</h2>
+      <br />
+      <h2 className="Music-Depo">Over Night </h2>
+      <div className="content">
+      
+        <img className="projects" src={overnight} alt="homepage screenshot" />
+        <h3>Full Stack hotel booking App Developed with
+            Seamless hotel search feature, allowing users to effortlessly browse and filter hotels by city, dates, and
+            room quantities.<a href="https://www.youtube.com/watch?v=j6Ln9_Z-rMk&t=17s">Video Demo</a></h3>
+        <br />
+
+      </div>
       <br />
       <h2 className="Music-Depo">Music Depo 🎸</h2>
       <div className="content">
